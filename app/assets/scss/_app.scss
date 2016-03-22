@@ -1,0 +1,61 @@
+/* Space out content a bit */
+body {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+/* some nice centered entries */
+.entry-home {
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+
+    i {
+        padding-left: 10px;
+    }
+}
+
+.form-group input[type=text]{
+	border: 0;
+  	border-radius: 0px;
+  	border-bottom: 1px solid #63879E;
+}
+.exmargin{
+	margin-left:10px;
+}
+.info-msg{
+	margin-left:10px;
+	margin-top:20px;
+	color: #63879E;
+	font-weight:200;
+}
+.error-msg{
+	margin-left:10px;
+	color: #990000;
+	font-weight:200;
+	visibility:hidden;
+}
+.error-msg.show{
+	visibility: visible;
+}
+.grp-text{
+	color:#63879E;
+	font-weight: 200;
+}
+.form-control.short{
+	width: 60px;
+}
+.form-control:disabled{
+	background-color: #C6E2FF;	
+	font-weight:500;
+}
+
+.form-control.medium{
+	width: 110px;
+}
+.form-control{
+	margin-bottom:10px;
+	margin-right:5px;
+}
+

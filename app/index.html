@@ -1,0 +1,48 @@
+<!Doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Forex</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	</head>
+	<body>
+		
+		<div class="container" style="width:250px">
+		<img src="http://www.datalicious.com/wp-content/uploads/2014/09/anz-logo2.png" height="50px" width="110px">
+		
+		<form class="exmargin">
+			<div class="small grp-text">If I have</div>
+			<div class="form-inline">
+			<div class="form-group">
+				<input type="text" data-bind="value: request.base" class="form-control short" data-provide="typeahead" id='rbase'>
+			</div>
+			<div class="form-group">
+				<input type="text" class="form-control medium" data-bind="value: request.baseAmount, valueUpdate:'afterkeydown'">
+			</div>
+			<div class="small grp-text">It is worth</div>
+			<div class="form-group">
+				<input type="text" data-bind="value: request.term" data-provide="typeahead" class="form-control short" id="rterm">
+			</div>
+			<div class="form-group">
+				<input type="text" data-bind="value: request.termAmount" class="form-control medium" disabled>
+			</div>
+		</div>
+		<!-- <button data-bind="click: computeRate" class="form-control btn-primary" style="width:180px">Calculate</button> -->
+		</form>
+
+		<div class="error-msg small" data-bind="css: { show: error() != '' }">
+			<span data-bind="text: error"></span>
+		</div>
+
+		<div class="info-msg small">
+			Forex Calculator | Ruprecht 2015
+		</div>
+		
+		
+
+	</div>
+
+		<!-- load js last to speed up html rendering -->
+		<script data-main="assets/js/config" src="bower_components/requirejs/require.js"></script>
+	</body>
+</html>

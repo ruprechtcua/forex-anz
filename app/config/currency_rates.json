@@ -1,0 +1,32 @@
+[{
+		"code": "AUDUSD",
+		"rate": 0.8371
+	},{
+		"code": "CADUSD",
+		"rate": 0.8711
+	},{
+		"code": "USDCNY",
+		"rate": 6.1715
+	},{
+		"code": "EURUSD",
+		"rate": 1.2315
+	},{
+		"code": "GBPUSD",
+		"rate": 1.5683
+	},{
+		"code": "NZDUSD",
+		"rate": 0.7750
+	},{
+		"code": "USDJPY",
+		"rate": 119.95
+	},{
+		"code": "EURCZK",
+		"rate": 27.6028
+	},{
+		"code": "EURDKK",
+		"rate": 7.4405
+	},{
+		"code": "EURNOK",
+		"rate": 8.6651
+	}
+]
